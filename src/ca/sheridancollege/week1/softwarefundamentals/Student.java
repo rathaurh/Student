@@ -13,6 +13,26 @@ public class Student {
     
     private String name;
 
+    private String partHour;
+
+    /**
+     * Get the value of partHour
+     *
+     * @return the value of partHour
+     */
+    public String getPartHour() {
+        return partHour;
+    }
+
+    /**
+     * Set the value of partHour
+     *
+     * @param partHour new value of partHour
+     */
+    public void setPartHour(String partHour) {
+        this.partHour = partHour;
+    }
+
     /**
      * Get the value of name
      *
